@@ -19,7 +19,7 @@
 
     <modules>
         <module>sb-root</module>
-        <module>core-library</module>
+        <module>sb-common-lib</module>
 
     </modules>
 

@@ -11,9 +11,9 @@
         <relativePath>../sb-root/pom.xml</relativePath>
     </parent>
 
-    <groupId>com.vidya.core.lib</groupId>
-    <artifactId>core-library</artifactId>
-    <version>1.0.0</version>
+    <groupId>com.vidya.common.lib</groupId>
+    <artifactId>sb-common-lib</artifactId>
+    <packaging>jar</packaging>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
