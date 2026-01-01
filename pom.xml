@@ -9,6 +9,20 @@
     <version>1.0.0</version>
     <packaging>pom</packaging>
 
+    <modules>
+        <!-- common modules -->
+        <module>sb-root</module>
+        <module>sb-common-lib</module>
+
+        <!-- adapters -->
+        <module>adapters/springboot-adapter</module>
+    </modules>
+
+    <build>
+        <plugins>
+        </plugins>
+    </build>
+
     <developers>
         <developer>
             <name>Vidya Sagar Gupta</name>
@@ -16,19 +30,4 @@
             <url>https://www.linkedin.com/in/vidyasagar-gupta/</url>
         </developer>
     </developers>
-
-    <modules>
-        <module>sb-root</module>
-        <module>sb-common-lib</module>
-
-    </modules>
-
-    <dependencies>
-    </dependencies>
-
-    <build>
-        <plugins>
-        </plugins>
-    </build>
-
 </project>
