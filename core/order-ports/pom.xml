@@ -11,7 +11,8 @@
     </parent>
 
     <groupId>com.vidya.order.service</groupId>
-    <artifactId>springboot-adapter</artifactId>
+    <artifactId>order-ports</artifactId>
+    <packaging>jar</packaging>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -25,10 +26,6 @@
             <artifactId>sb-common-lib</artifactId>
             <version>${project.version}</version>
         </dependency>
-        <dependency>
-            <groupId>com.vidya.order.service</groupId>
-            <artifactId>order-usecases</artifactId>
-            <version>${project.version}</version>
-        </dependency>
     </dependencies>
+
 </project>

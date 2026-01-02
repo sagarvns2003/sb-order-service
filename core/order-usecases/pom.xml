@@ -7,11 +7,12 @@
         <groupId>com.vidya.root</groupId>
         <artifactId>sb-root</artifactId>
         <version>1.0.0</version>
-        <relativePath>../../sb-root/pom.xml</relativePath>
+        <relativePath>../../sb-root</relativePath>
     </parent>
 
     <groupId>com.vidya.order.service</groupId>
-    <artifactId>springboot-adapter</artifactId>
+    <artifactId>order-usecases</artifactId>
+    <packaging>jar</packaging>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -27,7 +28,7 @@
         </dependency>
         <dependency>
             <groupId>com.vidya.order.service</groupId>
-            <artifactId>order-usecases</artifactId>
+            <artifactId>order-ports</artifactId>
             <version>${project.version}</version>
         </dependency>
     </dependencies>
