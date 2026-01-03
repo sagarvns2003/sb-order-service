@@ -6,4 +6,5 @@ import java.lang.annotation.*;
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
 @SingletonInitializer
-public @interface UseCase {}
+public @interface UseCase {
+}

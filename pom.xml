@@ -14,10 +14,13 @@
         <module>sb-root</module>
         <module>sb-common-lib</module>
 
-        <!-- adapters -->
+        <!-- core modules -->
         <module>core/order-ports</module>
         <module>core/order-usecases</module>
-        <module>adapters/springboot-adapter</module>
+
+        <!-- adapter modules -->
+        <module>adapters/order-rest-adapter</module>
+        <module>adapters/order-springboot-adapter</module>
     </modules>
 
     <build>

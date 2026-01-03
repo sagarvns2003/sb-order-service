@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xmlns="http://maven.apache.org/POM/4.0.0"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.vidya.root</groupId>
         <artifactId>sb-root</artifactId>
         <version>1.0.0</version>
-        <relativePath>../../sb-root</relativePath>
+        <relativePath>../../sb-root/pom.xml</relativePath>
     </parent>
 
     <groupId>com.vidya.order.service</groupId>
-    <artifactId>order-usecases</artifactId>
-    <packaging>jar</packaging>
+    <artifactId>order-rest-adapter</artifactId>
 
     <dependencies>
         <dependency>
@@ -26,4 +25,5 @@
             <version>${project.version}</version>
         </dependency>
     </dependencies>
+
 </project>
