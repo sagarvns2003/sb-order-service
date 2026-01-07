@@ -12,7 +12,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @AllArgsConstructor
-@RequestMapping("${spring.application.api.base-path}")
+// @RequestMapping("${spring.application.api.base-path}")
+@RequestMapping("/order-service/api/v1")
 public class OrderController {
 
   private final OrderGetDrivingPort orderGetDrivingPort;
