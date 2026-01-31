@@ -6,8 +6,8 @@ import com.vidya.order.service.ports.model.OrderSummaryModel;
 import java.util.List;
 import lombok.extern.slf4j.Slf4j;
 
-@UseCase
 @Slf4j
+@UseCase
 public class OrderGetUsecase implements OrderGetDrivingPort {
 
   /*private final OrderGetDrivenPort orderGetDrivenPort;
